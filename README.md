@@ -75,7 +75,7 @@ uvicorn src.api:app --reload
 ```
 
 Then open:
-👉 http://127.0.0.1:8000/docs
+  http://127.0.0.1:8000/docs
 
 Example request:
 ```json
@@ -145,37 +145,3 @@ uvicorn src.api:app --reload
 # 6. Open
 http://127.0.0.1:8000/docs
 ```
-
----
-
-##  Important Notes
-
-- If `faiss-cpu` fails, remove it from `requirements.txt`
-- Do **not** include these folders in submission ZIP:
-  - `venv/`
-  - `cache/`
-- `.txt` documents must be stored inside `data/docs/`
-
----
-
-##  Future Enhancements
-
-- Streamlit UI for easy demo
-- Query expansion for improved matching
-- Evaluation metrics like Precision@K
-- Cloud deployment using Docker
-
----
-
-##  Final Submission Instructions
-
-✔ Embed 200 documents  
-✔ API tested successfully  
-✔ Caching functionality working  
-✔ README includes all required parts  
-✔ Project ready for assessment
-
----
-
- Created by **Shriharee Panchal**
- Assignment – **AI Engineer Intern**
